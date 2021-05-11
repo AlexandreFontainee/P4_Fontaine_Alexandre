@@ -1087,16 +1087,18 @@ h4 {
 
     font-size: 20px;
     text-align: center;
-    color: #FFFFFF!important;
+    color: #000!important;
     padding-bottom: 30px;
+    border-bottom: solid 2px #000;
 }
 
 .text_white1{
 
     font-size: 30px;
     text-align: center;
-    color: #FFFFFF!important;
+    color: #000!important;
     padding-top: 30px;
+    border-top: solid 2px #000;
 }
 
 .new_button{
@@ -1173,4 +1175,78 @@ h4 {
     }
 
 
+}
+
+@media (min-width:680px) and (max-width:800px) {
+
+    .social{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .col-sm-3{
+
+        flex: 1;
+    }
+
+
+    .col-sm-6{
+
+        max-width: 400px;
+        align-items: center;
+    }
+
+    .row1{
+
+        padding: 0;
+        margin: 0;
+        flex-direction: row;
+    }
+
+    .adresse{
+
+        margin-left: 0;
+        padding-top: 25px;
+        margin: 0;
+    }
+
+    .t1, .t2, .t3{
+
+        margin: 0;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100px;
+    }
+
+    .form-group{
+
+        margin-left: 40px;
+    }
+
+    .text_white{
+
+        font-size:15px ;
+    }
+
+    .text_white1{
+
+        font-size:20px ;
+    }
+
+    .white{
+
+        padding: 10px;
+    }
+
+    #bloc-8{
+
+        margin-top: 70px;
+    }
+
+    .new_button{
+
+        margin-left: 280px;
+    }
 }
